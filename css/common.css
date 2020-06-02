@@ -20,6 +20,12 @@ body {
     letter-spacing: 0.03em;
     box-sizing: border-box;
     align-content: center;
+    
+
+}
+
+
+.container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -69,7 +75,9 @@ nav {
     margin-right: 30px;
 }
 
-
+.contacts-list {
+    align-content: center;
+}
 .contacts .contact-list {
     display: block;
     padding-top: 32px;
@@ -183,6 +191,10 @@ nav {
     flex-direction: column;
 }
 
+footer {
+    line-height: 24px;
+}
+
 .footer {
     background-color: var(--footer-background);
     margin-top: 94px;
@@ -195,6 +207,15 @@ nav {
 
 }
 
+.footer .footer-text:not(:last-child){
+ margin-bottom: 88px;
+ margin-right: 69px;
+
+}
+
+
+
+
 
 
 .adress {
@@ -203,7 +224,6 @@ nav {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.7;
     text-decoration: none;
     display: flex;
     flex-direction: column;

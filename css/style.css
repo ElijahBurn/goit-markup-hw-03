@@ -106,6 +106,17 @@ letter-spacing: 0.06em;
     text-align: center;
 }
 
+.services-list {
+    display: flex;
+}
+
+.services-list .services-item:not(:last-child){
+    margin-right: 30px;
+}
+.services-item {
+    width: 380px;
+}
+
 .services{
     background-color: var(--services-color);
     color: #fff;
@@ -165,6 +176,11 @@ letter-spacing: 0.06em;
 
 .clients-ul {
     display: flex;
+    margin-right: 30px;
+}
+
+.clients-list {
+
 }
 .clients-heading{
     font-weight: bold;
