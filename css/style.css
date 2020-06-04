@@ -57,7 +57,6 @@ letter-spacing: 0.06em;
 
 .adv-ul {
     display: flex;
-    margin-top: 94px;
     align-items: flex-end;
     padding-bottom: 94px;
     border-bottom: 1px solid #ECECEC;
@@ -96,7 +95,7 @@ letter-spacing: 0.06em;
 /* Услуги */
 
 .service {
-    margin-top: 94px;
+
 }
 
 .services-heading{
@@ -187,7 +186,6 @@ letter-spacing: 0.06em;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    margin-top: 188px;
     margin-bottom: 50px;
 }
 
@@ -214,9 +212,8 @@ letter-spacing: 0.06em;
     color: var(--title-text-color); 
     display: flex;
     justify-content: center;
-    padding-top: 100px;
     padding-bottom: 56px;
-    
+    padding-top: 94px;
 }
 .btn {
     color: var(--title-text-color);
@@ -278,7 +275,6 @@ letter-spacing: 0.06em;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-top: 20px;
     margin-bottom: 4px;
 }
 

@@ -67,6 +67,10 @@ nav {
     letter-spacing: 0.02em;  
 }
 
+.header .container {
+    display: flex;
+}
+
 .contacts {
     display: flex;
     margin-left: auto;
@@ -173,6 +177,10 @@ nav {
 }
 /* Футер */
 
+.footer .container {
+  display:flex;
+  flex-direction: row;  
+}
 
 .footer-logo {
     color: var(--studio-color);
@@ -197,21 +205,22 @@ footer {
 
 .footer {
     background-color: var(--footer-background);
-    margin-top: 94px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-content: space-between;
     padding-top: 56px;
+ 
+    
 
 }
 
 .footer .footer-text:not(:last-child){
- margin-bottom: 88px;
- margin-right: 69px;
-
+    margin-right: 69px;
 }
 
-
+.section {
+    padding-bottom: 94px;
+}
 
 
 
@@ -266,4 +275,22 @@ footer {
 
 link {
  color: var(--title-text-color);
+}
+.copyright-paragraph {
+  
+}
+.copyright {
+ color: var(--primary-text-color);
+display: flex;
+align-items: flex-end;
+justify-content: center; 
+margin-top: 28px;
+border-top: 1px solid rgba(255, 255, 255, 0.1); 
+padding-top: 18px;
+font-weight: normal;
+font-size: 12px;
+line-height: 24px;
+margin-bottom: 0;
+padding-bottom: 21px;
+
 }
