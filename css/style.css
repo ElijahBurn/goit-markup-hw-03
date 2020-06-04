@@ -20,6 +20,13 @@
 }
 
 /* Герой */
+
+.hero-container{
+    background-image: url(../img/header-img.jpg);
+    max-width: 1600px;
+    background-size: cover;
+}
+
 .hero{
 font-style: normal;
 font-weight: 900;
@@ -129,6 +136,9 @@ letter-spacing: 0.06em;
 }
 /* Команда */
 
+.team-section {
+    background-color: var(--btn-background-color);
+}
 .team-heading {
     text-align: center;
     font-weight: bold;
@@ -140,6 +150,7 @@ letter-spacing: 0.06em;
 
 .crew {
     display: flex;
+    
 }
 
 .crew .team-member:not(:last-child){
@@ -148,6 +159,7 @@ letter-spacing: 0.06em;
 
 .team-member {
     text-align: center;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
 }
 
 .crewman {
@@ -227,10 +239,10 @@ letter-spacing: 0.06em;
     border-radius: 4px;
     background: #F5F4FA;
 }
-
-.filter .btn:not(:last-child){
-    margin-right: 30px;
+.filter .btn-item:not(:last-child) {
+    margin-right: 8px;
 }
+
 
 .btn:hover {
     color: var(--background-color);
@@ -248,6 +260,7 @@ letter-spacing: 0.06em;
     margin-right: auto;
 }
 
+
 .projects{
     display: flex;
     flex-wrap: wrap;
@@ -257,7 +270,12 @@ letter-spacing: 0.06em;
     width: 380px;
     margin-right: 30px;
     margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
 
+}
+
+.project:hover {
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 .project:nth-child(3n) {
@@ -276,6 +294,7 @@ letter-spacing: 0.06em;
     line-height: 2;
     letter-spacing: 0.06em;
     margin-bottom: 4px;
+    padding-left: 24px;
 }
 
 .project-description {
@@ -287,5 +306,5 @@ letter-spacing: 0.06em;
     padding: 0px;
     margin: 0px;
     margin-bottom: 24px;
+    padding-left: 24px;
 }
-
