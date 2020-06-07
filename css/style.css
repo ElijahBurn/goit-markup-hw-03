@@ -28,6 +28,7 @@
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
+    background-color: #000;
     background-image:linear-gradient(to right,
     rgba(47, 48, 58, 0.8),
     rgba(47, 48, 58, 0.8)
@@ -63,6 +64,7 @@ letter-spacing: 0.06em;
 .hero-header {
     margin: 0px;
     padding: 0px;
+    color: var(--background-color);
 }
 
 /* Advantages */
@@ -90,6 +92,7 @@ letter-spacing: 0.06em;
     margin-bottom: 10px;
 
 }
+
 
 .adv-image-cont {
     margin-bottom: 30px;
